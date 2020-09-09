@@ -1,4 +1,4 @@
-package com.example.partnerspanel.adapters;
+package com.anvay.partnerspanel.adapters;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -16,9 +16,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
-import com.example.partnerspanel.R;
-import com.example.partnerspanel.fragments.notifications;
-import com.example.partnerspanel.models.NotificationItem;
+import com.anvay.partnerspanel.R;
+import com.anvay.partnerspanel.fragments.notifications;
+import com.anvay.partnerspanel.models.NotificationItem;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;

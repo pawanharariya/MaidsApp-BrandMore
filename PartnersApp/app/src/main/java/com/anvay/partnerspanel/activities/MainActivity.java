@@ -1,4 +1,4 @@
-package com.example.partnerspanel.activities;
+package com.anvay.partnerspanel.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,11 +15,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentManager;
 
-import com.example.partnerspanel.R;
-import com.example.partnerspanel.fragments.dashboard;
-import com.example.partnerspanel.fragments.home;
-import com.example.partnerspanel.fragments.profile;
-import com.example.partnerspanel.services.NotifyService;
+import com.anvay.partnerspanel.R;
+import com.anvay.partnerspanel.fragments.dashboard;
+import com.anvay.partnerspanel.fragments.home;
+import com.anvay.partnerspanel.fragments.profile;
+import com.anvay.partnerspanel.services.NotifyService;
 
 public class MainActivity extends AppCompatActivity {
     int color = 0xffD50000;

@@ -56,23 +56,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Location"
-            android:textColor="@color/black"
-            android:textSize="25sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Your current location is set as"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textColor="@color/defaultText"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/user_location"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Block,Haldwani"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_horizontal"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -80,8 +75,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="We will display services in this locality"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textColor="@color/defaultText"
+            android:textSize="16sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -89,14 +84,15 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:text="Pincode"
-            android:textColor="@color/black"
+            android:textColor="@color/defaultText"
             android:textSize="16sp" />
 
         <EditText
             android:id="@+id/pincode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:backgroundTint="@color/black"
             android:enabled="false"
             android:inputType="number"
@@ -110,8 +106,8 @@
             android:background="@drawable/green_corner"
             android:padding="10dp"
             android:text="Change pincode"
-
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/save"
@@ -122,13 +118,16 @@
             android:background="@drawable/green_corner"
             android:padding="10dp"
             android:text="Save and Continue"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/map"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/green_corner"
             android:padding="10dp"

@@ -1,4 +1,4 @@
-package com.example.partnerspanel;
+package com.anvay.partnerspanel;
 
 import android.content.Context;
 

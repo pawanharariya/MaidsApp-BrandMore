@@ -1,4 +1,4 @@
-package com.example.partnerspanel.models;
+package com.anvay.partnerspanel.models;
 
 import java.io.Serializable;
 import java.util.List;

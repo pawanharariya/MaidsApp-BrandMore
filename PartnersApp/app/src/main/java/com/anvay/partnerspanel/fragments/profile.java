@@ -1,4 +1,4 @@
-package com.example.partnerspanel.fragments;
+package com.anvay.partnerspanel.fragments;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.partnerspanel.R;
+import com.anvay.partnerspanel.R;
 import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;

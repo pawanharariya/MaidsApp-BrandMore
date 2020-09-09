@@ -1,4 +1,4 @@
-package com.example.partnerspanel.adapters;
+package com.anvay.partnerspanel.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,8 +16,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.partnerspanel.R;
-import com.example.partnerspanel.models.User;
+import com.anvay.partnerspanel.R;
+import com.anvay.partnerspanel.models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;

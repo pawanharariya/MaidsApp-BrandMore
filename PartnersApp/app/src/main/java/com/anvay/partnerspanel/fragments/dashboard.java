@@ -1,4 +1,4 @@
-package com.example.partnerspanel.fragments;
+package com.anvay.partnerspanel.fragments;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -15,9 +15,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.partnerspanel.R;
-import com.example.partnerspanel.adapters.reviewAdapter;
-import com.example.partnerspanel.models.Review;
+import com.anvay.partnerspanel.R;
+import com.anvay.partnerspanel.adapters.reviewAdapter;
+import com.anvay.partnerspanel.models.Review;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;

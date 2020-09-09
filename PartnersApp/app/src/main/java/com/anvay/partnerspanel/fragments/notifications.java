@@ -1,4 +1,4 @@
-package com.example.partnerspanel.fragments;
+package com.anvay.partnerspanel.fragments;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,9 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.partnerspanel.R;
-import com.example.partnerspanel.adapters.notificationAdapter;
-import com.example.partnerspanel.models.NotificationItem;
+import com.anvay.partnerspanel.R;
+import com.anvay.partnerspanel.adapters.notificationAdapter;
+import com.anvay.partnerspanel.models.NotificationItem;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;

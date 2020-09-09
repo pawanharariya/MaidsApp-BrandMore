@@ -1,4 +1,4 @@
-package com.example.partnerspanel.activities;
+package com.anvay.partnerspanel.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.partnerspanel.R;
+import com.anvay.partnerspanel.R;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.FusedLocationProviderClient;

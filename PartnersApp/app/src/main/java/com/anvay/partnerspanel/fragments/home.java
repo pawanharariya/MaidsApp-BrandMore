@@ -1,4 +1,4 @@
-package com.example.partnerspanel.fragments;
+package com.anvay.partnerspanel.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,10 +16,10 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import com.example.partnerspanel.R;
-import com.example.partnerspanel.activities.Location;
-import com.example.partnerspanel.adapters.UserAdapter;
-import com.example.partnerspanel.models.User;
+import com.anvay.partnerspanel.R;
+import com.anvay.partnerspanel.activities.Location;
+import com.anvay.partnerspanel.adapters.UserAdapter;
+import com.anvay.partnerspanel.models.User;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;

@@ -1,4 +1,4 @@
-package com.example.partnerspanel.services;
+package com.anvay.partnerspanel.services;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -16,8 +16,8 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import com.example.partnerspanel.R;
-import com.example.partnerspanel.activities.MainActivity;
+import com.anvay.partnerspanel.R;
+import com.anvay.partnerspanel.activities.MainActivity;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
