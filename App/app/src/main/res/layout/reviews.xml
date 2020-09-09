@@ -13,8 +13,8 @@
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:gravity="center_vertical"
             android:background="@drawable/blue_bg"
+            android:gravity="center_vertical"
             android:paddingLeft="10dp"
             android:text="What our customers say"
             android:textColor="@color/black"
@@ -22,10 +22,20 @@
 
     </androidx.cardview.widget.CardView>
 
+    <TextView
+        android:id="@+id/no_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No reviews available"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
     <ListView
         android:id="@+id/review_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
         android:layout_marginRight="10dp" />
 </LinearLayout>

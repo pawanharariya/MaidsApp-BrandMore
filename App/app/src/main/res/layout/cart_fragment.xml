@@ -46,7 +46,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/title"
         android:elevation="20dp"
-        android:visibility="gone">
+        android:visibility="visible">
 
         <TextView
             android:layout_width="match_parent"
@@ -91,7 +91,7 @@
                 android:nestedScrollingEnabled="true"
                 android:padding="10dp"
                 android:text="Book Now"
-                android:visibility="visible" />
+                android:visibility="gone" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

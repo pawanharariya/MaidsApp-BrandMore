@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     android:paddingBottom="10dp">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -13,9 +14,9 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="100dp"
         android:layout_marginRight="10dp"
-        android:backgroundTint="#ffffff"
         android:elevation="25dp"
-        android:src="@drawable/chat1" />
+        android:src="@drawable/chat1"
+        app:backgroundTint="#fff" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
-                android:elevation="6dp"
+                android:elevation="4dp"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 tools:text="Pawan Singh" />
@@ -49,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/name"
                 android:layout_centerHorizontal="true"
-                android:elevation="6dp"
+                android:elevation="4dp"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 tools:text="Age: 21" />
@@ -60,28 +61,35 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/age"
                 android:layout_centerHorizontal="true"
-                android:elevation="6dp"
+                android:elevation="4dp"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 tools:text="Male" />
 
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/image"
+                android:id="@+id/servant_image"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="100dp"
                 android:elevation="8dp"
                 android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@color/basic"
                 app:civ_border_color="@color/basicDark"
                 app:civ_border_width="3dp" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:src="@drawable/arrow_right" />
 
             <LinearLayout
                 android:id="@+id/basic_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/image"
+                android:layout_below="@+id/servant_image"
                 android:layout_marginTop="25dp"
                 android:orientation="horizontal">
 
@@ -166,43 +174,43 @@
                 android:orientation="vertical"
                 android:padding="10dp">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Distance Away"
-                    android:textColor="@color/black" />
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Distance Away"-->
+                <!--                    android:textColor="@color/black" />-->
 
-                <TextView
-                    android:id="@+id/distance"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    tools:text="25kms" />
+                <!--                <TextView-->
+                <!--                    android:id="@+id/distance"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    tools:text="25kms" />-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Estimated Arrival Time"
-                    android:textColor="@color/black" />
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="5dp"-->
+                <!--                    android:text="Estimated Arrival Time"-->
+                <!--                    android:textColor="@color/black" />-->
 
-                <TextView
-                    android:id="@+id/eta"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    tools:text="25mins" />
+                <!--                <TextView-->
+                <!--                    android:id="@+id/eta"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    tools:text="25mins" />-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Working Time"
-                    android:textColor="@color/black" />
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="5dp"-->
+                <!--                    android:text="Working Time"-->
+                <!--                    android:textColor="@color/black" />-->
 
-                <TextView
-                    android:id="@+id/working_time"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    tools:text="7 AM to 3 PM daily" />
+                <!--                <TextView-->
+                <!--                    android:id="@+id/working_time"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    tools:text="7 AM to 3 PM daily" />-->
 
                 <TextView
                     android:layout_width="match_parent"
@@ -365,4 +373,18 @@
 
         <include layout="@layout/performance_ratings" />
     </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/booking_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:visibility="gone">
+
+        <include layout="@layout/booking_time" />
+    </LinearLayout>
 </RelativeLayout>

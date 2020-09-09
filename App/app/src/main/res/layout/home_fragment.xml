@@ -50,9 +50,11 @@
 
             <TextView
                 android:id="@+id/user_location"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text"
+                android:layout_marginEnd="48dp"
+                android:singleLine="true"
                 android:layout_toRightOf="@+id/notification"
                 android:drawableRight="@drawable/arrow_down"
                 android:onClick="onLocationClicked"
@@ -72,20 +74,6 @@
                 android:onClick="getMenu"
                 android:scaleType="fitXY"
                 android:src="@drawable/menu" />
-
-            <EditText
-                android:id="@+id/search_bar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_margin="10dp"
-                android:background="@android:drawable/editbox_background_normal"
-                android:drawableStart="@drawable/search"
-                android:hint="Search"
-                android:inputType="textPersonName"
-                android:textColor="#1B1A1A"
-                android:textColorHint="#8F8D8D"
-                android:visibility="gone" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 

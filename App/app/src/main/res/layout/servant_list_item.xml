@@ -42,7 +42,7 @@
             android:layout_toRightOf="@+id/image"
             android:textColor="#616161"
             android:textSize="12sp"
-            tools:text="21/F" />
+            tools:text="21/M" />
 
         <TextView
             android:id="@+id/cost"
@@ -64,6 +64,7 @@
             android:textAllCaps="true"
             android:textColor="@color/available"
             android:textSize="13sp"
+            android:visibility="gone"
             tools:text="Available S,M,T,W,T,F,S 8-12 12-4 4-8" />
 
         <ImageView
@@ -98,6 +99,7 @@
             android:layout_marginRight="5dp"
             android:textColor="#616161"
             android:textSize="12sp"
+            android:visibility="gone"
             tools:text="Distance: 21km" />
 
         <TextView
@@ -109,6 +111,7 @@
             android:layout_marginRight="5dp"
             android:textColor="#616161"
             android:textSize="12sp"
+            android:visibility="gone"
             tools:text="ETA: 25min" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

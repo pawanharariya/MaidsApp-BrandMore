@@ -10,4 +10,7 @@
     <color name="transparent">#55000000</color>
     <color name="transparentBack">#01000000</color>
     <color name="transparent_black">#99000000</color>
+    <color name="rating_star">#FFAB00</color>
+    <color name="blue">#0288D1</color>
+
 </resources>

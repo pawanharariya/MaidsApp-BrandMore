@@ -70,11 +70,18 @@
                     android:orientation="horizontal"
                     android:padding="10dp">
 
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="80dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/japa_maids" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="16dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="80dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/japa_maids" />
+                    </androidx.cardview.widget.CardView>
 
                     <Space
                         android:layout_width="0dp"
@@ -130,11 +137,18 @@
                     android:orientation="horizontal"
                     android:padding="10dp">
 
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="80dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/maids" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="16dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="80dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/maids" />
+                    </androidx.cardview.widget.CardView>
 
                     <Space
                         android:layout_width="0dp"
@@ -190,11 +204,18 @@
                     android:orientation="horizontal"
                     android:padding="10dp">
 
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="80dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/instant_maid" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="16dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="80dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/instant_maid" />
+                    </androidx.cardview.widget.CardView>
 
                     <Space
                         android:layout_width="0dp"
@@ -250,11 +271,18 @@
                     android:orientation="horizontal"
                     android:padding="10dp">
 
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="80dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/maid247" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="16dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="80dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/maid247" />
+                    </androidx.cardview.widget.CardView>
 
                     <Space
                         android:layout_width="0dp"
@@ -310,11 +338,18 @@
                     android:orientation="horizontal"
                     android:padding="10dp">
 
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="80dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/office_boys" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="16dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="80dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/office_boys" />
+                    </androidx.cardview.widget.CardView>
 
                     <Space
                         android:layout_width="0dp"

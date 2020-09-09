@@ -81,11 +81,14 @@
             android:layout_below="@+id/hours"
             android:layout_alignLeft="@+id/hours"
             android:layout_alignRight="@+id/minutes"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/green_corner"
             android:onClick="getBill"
+            android:padding="10dp"
             android:text="Continue" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -103,7 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text=""
+            android:text="You will be notified if any maid accepts your request"
             android:textColor="@color/black" />
 
         <TextView

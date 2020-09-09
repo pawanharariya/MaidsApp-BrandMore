@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:577433426395:android:3514e6a2f2943ec43e2ffe",
+        "mobilesdk_app_id": "1:577433426395:android:0ed4d4d529ba04033e2ffe",
         "android_client_info": {
-          "package_name": "com.example.customerpanel"
+          "package_name": "com.anvay.customerpanel"
         }
       },
       "oauth_client": [
@@ -20,6 +20,49 @@
         }
       ],
       "api_key": [
+        {
+          "current_key": "AIzaSyB4LqTGCZ5_TOyner_4Cxyuleb5u5t9A9o"
+        },
+        {
+          "current_key": "AIzaSyCMDPUBWOORqYryD2kRw8bkK79FG-OpQ_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577433426395-3jrqmsmu9cr3ou7642gek07467jqpoh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577433426395:android:af8ac2429b1dac223e2ffe",
+        "android_client_info": {
+          "package_name": "com.example.partnerspanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577433426395-j11csp5g7u4nk3j0uh1no8csu0v5eoj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.partnerspanel",
+            "certificate_hash": "0f7c8a42b8f588e98646a0c96f7c222131892501"
+          }
+        },
+        {
+          "client_id": "577433426395-3jrqmsmu9cr3ou7642gek07467jqpoh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4LqTGCZ5_TOyner_4Cxyuleb5u5t9A9o"
+        },
         {
           "current_key": "AIzaSyCMDPUBWOORqYryD2kRw8bkK79FG-OpQ_Q"
         }
@@ -74,6 +117,9 @@
       ],
       "api_key": [
         {
+          "current_key": "AIzaSyB4LqTGCZ5_TOyner_4Cxyuleb5u5t9A9o"
+        },
+        {
           "current_key": "AIzaSyCMDPUBWOORqYryD2kRw8bkK79FG-OpQ_Q"
         }
       ],
@@ -110,6 +156,9 @@
         }
       ],
       "api_key": [
+        {
+          "current_key": "AIzaSyB4LqTGCZ5_TOyner_4Cxyuleb5u5t9A9o"
+        },
         {
           "current_key": "AIzaSyCMDPUBWOORqYryD2kRw8bkK79FG-OpQ_Q"
         }

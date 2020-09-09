@@ -67,14 +67,14 @@
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/chat"
+                android:id="@+id/bookings"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_below="@id/image"
                 android:background="@drawable/bottom_border"
                 android:gravity="left|center"
                 android:paddingLeft="20dp"
-                android:text="Chat"
+                android:text="Bookings"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -82,7 +82,7 @@
                 android:id="@+id/home"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_below="@+id/chat"
+                android:layout_below="@+id/bookings"
                 android:background="@drawable/bottom_border"
                 android:gravity="left|center"
                 android:onClick="onHomeClicked"
@@ -168,21 +168,21 @@
             <!--                android:textSize="16sp" />-->
 
             <TextView
-                android:id="@+id/bookings"
+                android:id="@+id/chat"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_below="@id/location"
                 android:background="@drawable/bottom_border"
                 android:gravity="left|center"
                 android:paddingLeft="20dp"
-                android:text="Bookings"
+                android:text="Chat"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/bookings"
+                android:layout_below="@id/chat"
                 android:layout_marginBottom="10dp">
 
                 <TextView

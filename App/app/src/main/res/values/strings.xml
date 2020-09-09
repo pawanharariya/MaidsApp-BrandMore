@@ -21,7 +21,12 @@
         <item>30</item>
         <item>45</item>
     </string-array>
+    <string-array name="booking_type">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
     <string name="title_activity_maps">Map</string>
-
-
+    <string name="refer_text">Referring to other customers will show your contact to them and they can connect to you so that they can make better decisions to hire this staff member.</string>
+    <string name="razorpay_api_id">rzp_test_JVrR77YksVRvZg</string>
 </resources>

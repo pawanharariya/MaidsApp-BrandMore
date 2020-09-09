@@ -12,7 +12,7 @@
         android:focusableInTouchMode="true"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:context=".Activities.Location">
+        tools:context="com.anvay.customerpanel.Activities.Location">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -56,21 +56,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Location"
-            android:textColor="@color/black"
-            android:textSize="25sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Your current location is set as"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/user_location"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
             android:text="Block,Haldwani"
             android:textColor="@color/black"
             android:textSize="20sp" />
@@ -79,13 +77,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="We will display services in this locality"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
+            android:backgroundTint="@color/blue"
             android:text="Pincode"
             android:textSize="16sp" />
 
@@ -97,29 +96,56 @@
             android:enabled="false"
             android:inputType="number" />
 
-        <Button
-            android:id="@+id/change_pincode"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/green_corner"
-            android:padding="10dp"
-            android:text="Change pincode" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:text="* All your searches will be based on your pincode"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/change_pincode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/green_corner"
+                android:padding="10dp"
+                android:text="Change pincode"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/green_corner"
+                android:padding="10dp"
+                android:text="Save &amp; Continue"
+                android:visibility="gone" />
+        </LinearLayout>
 
         <Button
-            android:id="@+id/save"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/green_corner"
-            android:padding="10dp"
-            android:text="Save and Continue" />
-        <Button
             android:id="@+id/map"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/green_corner"
             android:padding="10dp"

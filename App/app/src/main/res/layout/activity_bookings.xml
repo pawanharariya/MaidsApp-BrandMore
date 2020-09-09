@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/basic"
-    tools:context=".Activities.Bookings">
+    tools:context="com.anvay.customerpanel.Activities.Bookings">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/title"
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
-            android:background="@drawable/green_corner"
+            android:background="@drawable/default_button"
             android:text="Current" />
 
         <Button
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
-            android:background="@drawable/green_corner"
+            android:background="@drawable/default_button"
             android:text="Past" />
     </LinearLayout>
 
@@ -77,5 +77,6 @@
         android:layout_below="@+id/tabs"
         android:layout_marginTop="8dp"
         android:dividerHeight="3dp"
-        android:paddingLeft="8dp" />
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
 </RelativeLayout>
